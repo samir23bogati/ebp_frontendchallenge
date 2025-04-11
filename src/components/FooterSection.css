@@ -1,0 +1,149 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+.footer {
+  background-color: #f5f7ff;
+  padding: 2rem 1.5rem; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-description {
+  flex: 1 1 400px;
+  max-width: 500px;
+  animation: fadeIn 1s ease-in-out;
+}
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+.footer-description p {
+  line-height: 1.6;
+}
+
+.social-icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.social-icons a {
+  font-size: 1.3rem;
+  color: #6b6b6b;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0077b5;
+  transform: scale(1.2);
+}
+
+.footer-links {
+  display: flex;
+  gap: 3rem;
+  flex: 2 1 600px;
+  flex-wrap: wrap;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.footer-links h4 {
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  color: #222;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-links > div {
+  flex: 1 1 150px;
+  min-width: 180px;
+}
+
+
+.footer-links li {
+  margin-bottom: 0.4rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-links li:hover {
+  color: #0077b5;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  animation: fadeIn 1.4s ease-in-out;
+}
+.footer-bottom div {
+  margin-top: 0.5rem;
+}
+
+.footer-bottom a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #6b6b6b;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+  color: #0077b5;
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-description,
+  .footer-links {
+    width: 100%;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  .footer-bottom div {
+    margin-bottom: 0.5rem;
+  }
+}
