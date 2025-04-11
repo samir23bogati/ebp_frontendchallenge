@@ -1,27 +1,30 @@
 .hero-section {
+    position: relative;
     background-color: #0f1221;
     color: white;
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
+    overflow: hidden;
   }
   
   .hero-container {
     max-width: 1200px;
     margin: auto;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 2rem;
+    position: relative;
   }
   
   .hero-text {
     flex: 1;
     min-width: 300px;
+    max-width: 500px;
   }
   
   .hero-text h1 {
-    font-size: 2.75rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
     line-height: 1.2;
   }
@@ -29,27 +32,76 @@
   .hero-text p {
     font-size: 1.125rem;
     margin-bottom: 2rem;
-    color: #ccc;
+    color: #bdbdbd;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
   }
   
   .hero-btn {
-    background-color: #5d5fef;
-    color: white;
+    background-color: #ffffff;
+    color: #4d2afe;
     padding: 0.75rem 1.5rem;
     border: none;
-    border-radius: 6px;
+    border-radius: 999px;
     font-weight: 600;
     font-size: 1rem;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: all 0.3s ease;
   }
   
   .hero-btn:hover {
-    background-color: #4b4dcd;
+    background-color: #e0e0e0;
   }
   
-  .hero-graphic img {
-    max-width: 100%;
+  .hero-indicators {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #888;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color: #d946ef; /* pink */
+  }
+  /* .hero-graphic {
+    position: absolute;
+    right: 120px;
+    width: 350px;
     height: auto;
+    z-index: 0;
+  } */
+  .hero-graphic {
+    width: 350px;
+    height: auto;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  
+  /* .hero-graphic img {
+    width: 480px;
+    height: 330px;
+    object-fit: contain;
+    opacity: 0.7;
+  } */
+
+  .hero-graphic img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    max-height: 280px; /* Reduces image height */
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+    opacity: 0.7;
+  }

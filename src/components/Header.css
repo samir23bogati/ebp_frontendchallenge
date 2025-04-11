@@ -11,11 +11,23 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
   }
   
+  .logo-icon {
+    width: 33px;
+    height: 32px;
+  }
   .logo h2 {
-    font-size: 1.5rem;
-    color: #2c2c2c;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1a1a1a;
   }
   
   .nav-links ul {
@@ -28,19 +40,26 @@
   
   .nav-links a {
     text-decoration: none;
-    color: #333;
-    font-weight: 500;
+    color: #1a1a1a;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: color 0.2s ease;
+  }
+  .nav-links a:hover {
+    color: #5d5fef;
   }
   
   .auth-buttons {
     display: flex;
-    gap: 1rem;
+    align-items: center;
+    gap: 1.1rem;
   }
   
   .login-link {
-    color: #333;
+    color: #8a12e5;
     text-decoration: none;
     font-weight: 500;
+    font-size: 1.2rem;
     padding: 0.5rem 1rem;
   }
   
@@ -51,8 +70,9 @@
     border-radius: 6px;
     padding: 0.5rem 1rem;
     font-weight: 600;
+    font-size: 1.1rem;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: background 0.3s ease;
   }
   
   .demo-button:hover {

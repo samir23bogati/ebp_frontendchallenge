@@ -10,33 +10,33 @@ const features = [
   },
   {
     icon: "⚡",
+    title: "You choose invoices to get paid",
+    description:
+      "Self-serve online portal available 24/7 or connect from your CRM or invoicing platform.",
+  },
+  {
+    icon: "⏱",
+    title: "Simple pricing",
+    description:
+      "Only pay for what you use,if you don't need us,there are no costs.",
+  },
+  {
+    icon: "📊",
     title: "Click and quick",
     description:
       "We fund each invoice once approved and collect payment to optimise your cash flow.",
   },
   {
-    icon: "⏱",
-    title: "Instant access",
-    description:
-      "We fund each invoice once approved and collect payment to optimise your cash flow.",
-  },
-  {
-    icon: "📊",
-    title: "Fast cash flow",
-    description:
-      "We fund each invoice once approved and collect payment to optimise your cash flow.",
-  },
-  {
     icon: "🧩",
-    title: "Seamless process",
+    title: "Flexible",
     description:
-      "We fund each invoice once approved and collect payment to optimise your cash flow.",
-  },
+    "Self-serve online portal available 24/7 or connect from your CRM or invoicing platform.",
+},
   {
     icon: "🔐",
-    title: "Safe and secure",
+    title: "Invest in your business",
     description:
-      "We fund each invoice once approved and collect payment to optimise your cash flow.",
+      "Only pay for what you use,if you don't need us,there are no costs.",
   },
 ];
 
