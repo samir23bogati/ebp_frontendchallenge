@@ -33,9 +33,9 @@
     font-size: 1.125rem;
     margin-bottom: 2rem;
     color: #bdbdbd;
-    white-space: nowrap; 
-    overflow: hidden;
-    text-overflow: ellipsis; 
+    white-space: normal; 
+    overflow: visible;
+    text-overflow: initial; 
   }
   
   .hero-btn {
@@ -92,4 +92,70 @@
     margin: 0;
     padding: 0;
     opacity: 0.7;
+  }@media (max-width: 1024px) {
+    .hero-text h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero-text p {
+      font-size: 1rem;
+    }
+  
+    .hero-graphic {
+      width: 300px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .hero-text {
+      max-width: 100%;
+    }
+  
+    .hero-text h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-text p {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .hero-graphic {
+      width: 100%;
+      max-width: 280px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-section {
+      padding: 1.5rem 1rem;
+    }
+  
+    .hero-text h1 {
+      font-size: 1.6rem;
+    }
+  
+    .hero-text p {
+      font-size: 0.95rem;
+    }
+  
+    .hero-btn {
+      padding: 0.6rem 1.2rem;
+      font-size: 0.95rem;
+    }
+  
+    .hero-graphic {
+      max-width: 240px;
+    }
+  
+    .dot {
+      width: 8px;
+      height: 8px;
+    }
   }

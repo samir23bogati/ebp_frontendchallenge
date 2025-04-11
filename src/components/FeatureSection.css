@@ -74,4 +74,73 @@
     margin-bottom: 1rem;
     color: #4a4a4a;
   }
+  @media (max-width: 1024px) {
+    .feature-header h2 {
+      font-size: 2rem;
+    }
   
+    .feature-header p {
+      font-size: 1.05rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .feature-section {
+      padding: 3rem 1rem;
+    }
+  
+    .feature-header h2 {
+      font-size: 1.75rem;
+    }
+  
+    .feature-header p {
+      font-size: 1rem;
+    }
+  
+    .feature-card {
+      padding: 1.5rem;
+    }
+  
+    .feature-card h3 {
+      font-size: 1.1rem;
+    }
+  
+    .feature-card p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .feature-section {
+      padding: 2.5rem 0.8rem;
+    }
+  
+    .feature-header h2 {
+      font-size: 1.5rem;
+    }
+  
+    .feature-header p {
+      font-size: 0.95rem;
+    }
+  
+    .feature-grid {
+      gap: 1.5rem;
+    }
+  
+    .feature-card {
+      padding: 1.2rem;
+    }
+  
+    .feature-card h3 {
+      font-size: 1rem;
+    }
+  
+    .feature-card p {
+      font-size: 0.875rem;
+    }
+  
+    .feature-icon {
+      font-size: 1.8rem;
+    }
+  }
