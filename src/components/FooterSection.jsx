@@ -4,6 +4,7 @@ import "./FooterSection.css";
 const FooterSection = () => {
   return (
     <footer className="footer">
+        <div className="footer-inner">
       <div className="footer-container">
         <div className="footer-description">
           <p>
@@ -55,7 +56,7 @@ const FooterSection = () => {
           </div>
         </div>
       </div>
-
+      </div>
       <div className="footer-bottom">
         <div>
           <a href="/privacy-policy">Privacy policy</a>
@@ -63,7 +64,7 @@ const FooterSection = () => {
         </div>
         <div>
         <a href="/site-map">Site map</a>
-        <a href="https://samir23bogati.github.io/portfolio/" target="_blank">@samirbogati</a>
+        <a href="https://samir23bogati.github.io/portfolio/" target="_blank"rel="noopener noreferrer">@samirbogati</a>
         </div>
       </div>
     </footer>

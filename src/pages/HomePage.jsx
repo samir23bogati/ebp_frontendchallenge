@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import FeatureSection from '../components/FeatureSection';
 import FooterSection from '../components/FooterSection';
+import TaskManager from '../components/TaskManager';
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Header />
       <HeroSection />
       <FeatureSection />
+      <TaskManager />
       <FooterSection/>
     </>
   );
