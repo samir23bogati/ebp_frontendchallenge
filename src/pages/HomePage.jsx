@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection';
 import FeatureSection from '../components/FeatureSection';
 import FooterSection from '../components/FooterSection';
 import TaskManager from '../components/TaskManager';
+import ContactForm from '../components/ContactForm';
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <HeroSection />
       <FeatureSection />
       <TaskManager />
+      <ContactForm />
       <FooterSection/>
     </>
   );

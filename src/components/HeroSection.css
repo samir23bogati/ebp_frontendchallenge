@@ -4,6 +4,7 @@
     color: white;
     padding: 2rem 2rem;
     overflow: hidden;
+    width: 100%;
   }
   
   .hero-container {
@@ -19,7 +20,7 @@
   
   .hero-text {
     flex: 1;
-    min-width: 300px;
+    min-width: 280px;
     max-width: 500px;
   }
   
@@ -33,9 +34,7 @@
     font-size: 1.125rem;
     margin-bottom: 2rem;
     color: #bdbdbd;
-    white-space: normal; 
-    overflow: visible;
-    text-overflow: initial; 
+    word-break: break-word;
   }
   
   .hero-btn {
@@ -59,6 +58,8 @@
     display: flex;
     gap: 0.5rem;
     align-items: center;
+    justify-content: center;
+  flex-wrap: wrap;
   }
   
   .dot {
@@ -71,7 +72,7 @@
   }
   
   .dot.active {
-    background-color: #d946ef; /* pink */
+    background-color: #d946ef; 
   }
   
   .hero-graphic {
@@ -87,12 +88,13 @@
     width: 100%;
     max-width: 350px;
     height: auto;
-    max-height: 280px; /* Reduces image height */
+    max-height: 280px;
     object-fit: contain;
     margin: 0;
     padding: 0;
     opacity: 0.7;
-  }@media (max-width: 1024px) {
+  }
+  @media (max-width: 1024px) {
     .hero-text h1 {
       font-size: 2.5rem;
     }
@@ -125,10 +127,17 @@
       font-size: 1rem;
       margin-bottom: 1.5rem;
     }
+    .hero-btn {
+      font-size: 0.95rem;
+      padding: 0.65rem 1.4rem;
+    }
   
     .hero-graphic {
       width: 100%;
-      max-width: 280px;
+      max-width: 260px;
+    }
+    .hero-indicators {
+      justify-content: center;
     }
   }
   
@@ -151,11 +160,14 @@
     }
   
     .hero-graphic {
-      max-width: 240px;
+      max-width: 220px;
     }
   
     .dot {
       width: 8px;
       height: 8px;
+    }
+    .hero-indicators {
+      gap: 0.4rem;
     }
   }
