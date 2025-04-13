@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ebp_frontendchallenge/static/css/main.e6c13ad2.css",
+    "main.js": "/ebp_frontendchallenge/static/js/main.ece4ddb4.js",
+    "static/css/812.2ab7feb5.chunk.css": "/ebp_frontendchallenge/static/css/812.2ab7feb5.chunk.css",
+    "static/js/812.85a92034.chunk.js": "/ebp_frontendchallenge/static/js/812.85a92034.chunk.js",
+    "static/js/453.78e34d5b.chunk.js": "/ebp_frontendchallenge/static/js/453.78e34d5b.chunk.js",
+    "static/js/200.e267081e.chunk.js": "/ebp_frontendchallenge/static/js/200.e267081e.chunk.js",
+    "index.html": "/ebp_frontendchallenge/index.html",
+    "main.e6c13ad2.css.map": "/ebp_frontendchallenge/static/css/main.e6c13ad2.css.map",
+    "main.ece4ddb4.js.map": "/ebp_frontendchallenge/static/js/main.ece4ddb4.js.map",
+    "812.2ab7feb5.chunk.css.map": "/ebp_frontendchallenge/static/css/812.2ab7feb5.chunk.css.map",
+    "812.85a92034.chunk.js.map": "/ebp_frontendchallenge/static/js/812.85a92034.chunk.js.map",
+    "453.78e34d5b.chunk.js.map": "/ebp_frontendchallenge/static/js/453.78e34d5b.chunk.js.map",
+    "200.e267081e.chunk.js.map": "/ebp_frontendchallenge/static/js/200.e267081e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.ece4ddb4.js"
+  ]
+}
